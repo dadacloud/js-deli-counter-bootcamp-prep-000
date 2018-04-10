@@ -2,9 +2,9 @@ var katzDeli = [];
 var katzDeliLine = [];
 
 function takeANumber(katzDeliLine){
-  var n = 1;
+  var n = 1; n ++;
   katzDeliLine.push(n);//add new person to line, give them number, keep track of numbers throughout day, and when new ppl come in without anyone else in line, the number keeps rising
-  return `You are number ` + katzDeliLine.length;
+  return `You are number ` + katzDeliLine;
 }
 
 
